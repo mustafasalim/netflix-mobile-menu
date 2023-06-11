@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-color: #2C3333;
+}
+
+
+.header-icon{
+    position: absolute;
+    height: 30px;
+    width: 50px;
+}
+
+.header-icon ion-icon{
+    color: red;
+    cursor: pointer;
+    right: 50px;
+    transition: 0.25s;
+}
+
+.header-menu .menues li ion-icon{
+    color: red;
+}
+
+
+.logo img{
+    margin-top: 40%;
+    margin-left: 45px;
+    width: 200px;
+}
+
+
+
+
+
+#header{
+    display: flex;
+    width: 0;
+}
+
+.header-menu{
+    position: absolute;
+    width: 0px;
+    height: 100vh;
+    background-color: #fff;
+    transition: 0.75s ;
+    overflow: hidden;
+    
+    
+}
+
+
+.header-menu .menues li{
+    
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    width: 500px;
+    list-style-type: none;
+    color: #2C3333;
+    cursor: pointer;
+    padding-left: 20px;
+    column-gap: 10px;
+}
+
+
+.header-menu .menues{
+    position: absolute;
+    bottom: 50%;   
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+    margin-top: 100%;
+    
+ 
+
+}
+.header-menu.action .menues{
+    transform: translateY(190px);
+}
+
+.header-menu.action{
+    
+    width: 300px;
+}
+
+.click{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    left: 300px;
+    top: 0;
+    column-gap: 10px;
+}
+
+.netflix-mobil-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: -webkit-linear-gradient(0deg, #aa0000 40%,#ff2929 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.colors-div{
+    display: flex;
+    column-gap: 30px;
+}
+
+.div1{
+      
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background-color: red;
+    transition: 1s ease-in;
+
+}
+
+.div2{
+ position: absolute;
+ top: 0;
+ left: 280px;
+  width: 10px;
+  height: 100%;
+  background-color: black;
+  transition: 1s ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
